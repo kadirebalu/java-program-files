@@ -1,0 +1,17 @@
+public class NumberObjects
+{
+	staticint count=0;
+	NumberObjects()
+	{
+		count++;
+}
+public static void main(String[] args)
+	{
+	NumberObjects obj1 = new NumberObjects();
+	NumberObjects obj2 = new NumberObjects();
+	NumberObjects obj3 = new NumberObjects();
+	NumberObjects obj4 = new NumberObjects();
+	NumberObjects obj5 = new NumberObjects();
+	System.out.println("number of objects created:"+count);
+	}
+}
